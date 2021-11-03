@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>
+            Giả sử bạn là kế toán cho một công ty. Bạn cần viết một chương trình để nhập lương nhân viên, tính thuế thu
+            nhập và lương ròng (số tiền lương thực sự mà nhân viên đó nhận được). Với các thông số sau (mình chỉ đưa ra
+            các con số này cho dễ tính toán): <br>
+            - <b>30%</b>  thuế thu nhập nếu lương là <b>15 triệu</b> <br>
+            - <b>20%</b>  thuế thu nhập nếu lương từ <b>7 triệu</b> đến <b>15 triệu</b>  <br>
+            - <b>10%</b>  thuế thu nhập nếu lương dưới <b>7 triệu</b> 
+        </p>
+    </div>
+    <div class="container">
+        <form action="">
+            <input type="text" placeholder="Nhập số lương của bạn !!!" id="text" name="text">
+            <button type="button" id="btn"><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+    <div class="container">
+        <div class="container__thue">
+            <h3>Thuế</h3>
+            <p>
+                30 triệu
+            </p>
+        </div>
+        <div class="container__luong">
+            <h3>Lương ròng</h3>
+            <p>
+                40 triệu
+            </p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
